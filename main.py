@@ -1,9 +1,9 @@
 import telebot
-#from bot_logic import gen_pass, gen_emodji, flip_coin  # Импортируем функции из bot_logic
+
 from model import get_class
 import datetime
 
-# Замени 'TOKEN' на токен твоего бота
+
 bot = telebot.TeleBot("7830796741:AAEmZsGGjvaLzyDgDwZcChJ4s9c2iU9e9Oc")
 
 
@@ -55,8 +55,6 @@ def handle_docs_photo(message):
 
 
 
-
-# Запускаем бота
 bot.polling()
 
 
